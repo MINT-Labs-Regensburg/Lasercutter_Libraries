@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnLibrary>
+    <Material name="Aerro PLUS troudat">
+        <Entry Thickness="2.3000" Desc="LinieSchneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Aerro PLUS troudat/2.3000/LinieSchneiden"/>
+                <minPower Value="65"/>
+                <maxPower Value="70"/>
+                <maxPower2 Value="20"/>
+                <speed Value="10"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.3000" Desc="LinieSchneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Aerro PLUS troudat/2.3000/LinieSchneiden"/>
+                <minPower Value="65"/>
+                <maxPower Value="70"/>
+                <maxPower2 Value="20"/>
+                <speed Value="8"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.3000" Desc="FüllenUndLinie">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Aerro PLUS troudat/2.3000/FüllenUndLinie"/>
+                <minPower Value="65"/>
+                <maxPower Value="65"/>
+                <maxPower2 Value="20"/>
+                <speed Value="40"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <interval Value="0.085"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="DickererFotokarton">
+        <Entry Thickness="0.0000" Desc="Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="DickererFotokarton/0.0000/Schneiden"/>
+                <minPower Value="5"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <numPasses Value="3"/>
+                <perfLen Value="2"/>
+                <perfSkip Value="2"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Eissteckerl">
+        <Entry Thickness="1.8000" Desc="Tape entfernen">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Eissteckerl/1.8000/Tape entfernen"/>
+                <minPower Value="13"/>
+                <maxPower Value="13"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <numPasses Value="3"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="1.8000" Desc="Linie gravieren maskiert">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Eissteckerl/1.8000/Linie gravieren maskiert"/>
+                <minPower Value="5"/>
+                <maxPower Value="9"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="1.8000" Desc="Gravieren">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Eissteckerl/1.8000/Gravieren"/>
+                <minPower Value="10"/>
+                <maxPower Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="1.8000" Desc="Schneiden beidseitig maskiert">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Eissteckerl/1.8000/Schneiden beidseitig maskiert"/>
+                <minPower Value="10"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="1.8000" Desc="Schneiden schnell">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Eissteckerl/1.8000/Schneiden schnell"/>
+                <minPower Value="60"/>
+                <maxPower Value="60"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="1.8000" Desc="Schneiden normal">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Eissteckerl/1.8000/Schneiden normal"/>
+                <minPower Value="40"/>
+                <maxPower Value="40"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Flaschendeckel HDPE">
+        <Entry Thickness="1.6000" Desc="Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Flaschendeckel HDPE/1.6000/Schneiden"/>
+                <minPower Value="80"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <numPasses Value="10"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Fotokarton 300g">
+        <Entry Thickness="2.3000" Desc="Knicklinie">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Fotokarton 300g/2.3000/Knicklinie"/>
+                <minPower Value="5"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <numPasses Value="2"/>
+                <perforate Value="1"/>
+                <perfLen Value="2"/>
+                <perfSkip Value="3"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <interval Value="0.15"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.3000" Desc="Knicklinie">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Fotokarton 300g/2.3000/Knicklinie"/>
+                <minPower Value="5"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <defaultSpeed Value="1"/>
+                <numPasses Value="2"/>
+                <perforate Value="1"/>
+                <perfLen Value="2"/>
+                <perfSkip Value="2"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.3000" Desc="Schnitt">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Fotokarton 300g/2.3000/Schnitt"/>
+                <minPower Value="0"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <perfLen Value="2"/>
+                <perfSkip Value="2"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Jeans">
+        <Entry Thickness="-1.0000" Desc="Jeans Füllen" NoThickTitle="Jeans Füllen">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Jeans/Jeans Füllen/Jeans Füllen"/>
+                <minPower Value="5"/>
+                <maxPower Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Karton Ikea Einlagig">
+        <Entry Thickness="2.0000" Desc="Schnitt">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Karton Ikea Einlagig/2.0000/Schnitt"/>
+                <minPower Value="10"/>
+                <maxPower Value="50"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <interval Value="0.085"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.0000" Desc="Schnitt">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Karton Ikea Einlagig/2.0000/Schnitt"/>
+                <minPower Value="30"/>
+                <maxPower Value="60"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <interval Value="0.085"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Karton2LagenWelle">
+        <Entry Thickness="6.0000" Desc="Füllen">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Karton2LagenWelle/6.0000/Füllen"/>
+                <minPower Value="10"/>
+                <maxPower Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="6.0000" Desc="Knicklinie">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Karton2LagenWelle/6.0000/Knicklinie"/>
+                <minPower Value="70"/>
+                <maxPower Value="70"/>
+                <maxPower2 Value="20"/>
+                <speed Value="35"/>
+                <perforate Value="1"/>
+                <perfLen Value="2"/>
+                <perfSkip Value="2"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="6.0000" Desc="Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Karton2LagenWelle/6.0000/Schneiden"/>
+                <minPower Value="5"/>
+                <maxPower Value="40"/>
+                <maxPower2 Value="20"/>
+                <speed Value="20"/>
+                <numPasses Value="2"/>
+                <perfLen Value="2"/>
+                <perfSkip Value="2"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="6.0000" Desc="LinieGravur">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Karton2LagenWelle/6.0000/LinieGravur"/>
+                <minPower Value="70"/>
+                <maxPower Value="70"/>
+                <maxPower2 Value="20"/>
+                <speed Value="35"/>
+                <perfLen Value="2"/>
+                <perfSkip Value="2"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="6.0000" Desc="LinieGravur">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Karton2LagenWelle/6.0000/LinieGravur"/>
+                <minPower Value="5"/>
+                <maxPower Value="5"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <perforate Value="1"/>
+                <perfSkip Value="0.15"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="6.0000" Desc="Fotogravur">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Karton2LagenWelle/6.0000/Fotogravur"/>
+                <minPower Value="5"/>
+                <maxPower Value="20"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <PPI Value="0"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <cellsPerInch Value="45"/>
+                <ditherMode Value="halftone"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="MDF">
+        <Entry Thickness="3.0000" Desc="Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Schneiden"/>
+                <minPower Value="80"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="8"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Linie gravieren">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Linie gravieren"/>
+                <minPower Value="10"/>
+                <maxPower Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Linie gravieren maskiert">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Linie gravieren maskiert"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Tape entfernen">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Tape entfernen"/>
+                <minPower Value="10"/>
+                <maxPower Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <numPasses Value="3"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Text füllen">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/3.0000/Text füllen"/>
+                <minPower Value="10"/>
+                <maxPower Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Pappel Sperrholz">
+        <Entry Thickness="3.5000" Desc="E Schneiden normal">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappel Sperrholz/3.5000/E Schneiden normal"/>
+                <minPower Value="0"/>
+                <maxPower Value="70"/>
+                <maxPower2 Value="20"/>
+                <speed Value="18"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.5000" Desc="E Linie gravieren">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappel Sperrholz/3.5000/E Linie gravieren"/>
+                <minPower Value="21"/>
+                <maxPower Value="21"/>
+                <maxPower2 Value="20"/>
+                <speed Value="155"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.5000" Desc="E Schneiden langsam">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappel Sperrholz/3.5000/E Schneiden langsam"/>
+                <minPower Value="46"/>
+                <maxPower Value="46"/>
+                <maxPower2 Value="20"/>
+                <speed Value="10"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.5000" Desc="E Linie gravieren maskiert">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappel Sperrholz/3.5000/E Linie gravieren maskiert"/>
+                <minPower Value="21"/>
+                <maxPower Value="21"/>
+                <maxPower2 Value="20"/>
+                <speed Value="155"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="ScotchTape">
+        <Entry Thickness="0.0000" Desc="Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="ScotchTape/0.0000/Schneiden"/>
+                <minPower Value="5"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Wegbrennen">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="ScotchTape/-1.0000/Wegbrennen"/>
+                <minPower Value="5"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <runBlower Value="0"/>
+                <perforate Value="1"/>
+                <perfSkip Value="0.15"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="individual"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+</LightBurnLibrary>
